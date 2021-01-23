@@ -7,8 +7,8 @@ import java.util.function.Supplier;
 
 public class SupplierFunction {
     public static void main(String[] args) {
-        Supplier<List<Integer>> idList = () -> Arrays.asList(1,2,3,4);
+        Supplier<List<Integer>> supplierIntegerList = () -> Arrays.asList(1,2,3,4);
 
-        System.out.println(idList.get());
+        System.out.println(supplierIntegerList.get());
     }
 }
